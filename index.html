@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    
+    <!-- Link to CSS and JavaScript -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/script.js"></script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+    rel="stylesheet">
+
+    <!-- Title -->
+    <title>Stopwatch</title>
+</head>
+<body>
+    <br>
+    <h1>STOPWATCH</h1>
+    <br><br>
+    <div class="center">
+        <div class="circle">
+            <span class="time" id="display">00:00:00</span>
+        </div>
+    </div>
+    <br><br>
+    <div class="center">
+        <button id="play-button" onclick="start()">
+            <img src="static/images/play-button.svg">
+        </button>
+
+        <button id="pause-button" onclick="pause()">
+            <img src="static/images/pause-button.svg">
+        </button>
+    
+        <button id="reset-button" onclick="reset()">
+            <img src="static/images/reset-button.svg">
+        </button>
+    </div>
+</body>
+</html>
